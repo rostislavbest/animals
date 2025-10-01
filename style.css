@@ -1,0 +1,22 @@
+h1,h2,h5,p{
+    text-align: center;
+}
+.container{
+max-width: 900px;
+margin:0 auto;
+}
+.main{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:5px;
+    flex-wrap: wrap;
+}
+.card{
+    width:calc((900px - 10px) / 3);
+    position: relative;
+    background:blue;
+}
+.card img{
+    width:100%;
+}
